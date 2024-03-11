@@ -40,11 +40,3 @@ Join the Lotus community to find support, share your projects, and collaborate w
 We welcome contributions from everyone. If you're interested in helping improve Lotus, check out our [contributing guidelines](/contributing).
 
 Thank you for choosing Lotus for your development needs. We're excited to see what you'll build with Lotus!
-
-```py
-print("Welcome to the Lotus project")
-```
-
-```py
-    print("Welcome to the Lotus project")
-```
