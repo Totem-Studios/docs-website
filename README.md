@@ -7,7 +7,7 @@ Welcome to the official documentation for Lotus, an innovative programming langu
 Lotus is easy to learn and has a gentle learning curve. This section will help you set up your development environment and take your first steps in Lotus programming.
 
 - [Installation Guide](/installation.md): Learn how to install Lotus on your system.
-- [Quick Start](/quick-start): A quick introduction to get you coding in Lotus right away.
+- [Quick Start](/quick-start.md): A quick introduction to get you coding in Lotus right away.
 
 ## Language Reference
 
