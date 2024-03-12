@@ -1,4 +1,4 @@
-# Welcome to the totem studios!
+# Welcome to the totem studios docs!
 
 ### Categories
 
@@ -23,3 +23,7 @@ Founders:
 - [Neo Mannskär](/neo.md)
   - [Personal portfolio](https://neo.mannskar.com)
   - [About Neo](/neo.md)
+
+Contributors:
+
+Feel free to contribute with anything and you'll be added in the [contributors list](/contributors.md)
