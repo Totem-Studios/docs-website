@@ -18,11 +18,15 @@ Thanks for visiting the docs <3
 Founders:
 
 - [Pontus Henriksson](/pontus.md)
-  - [Personal portfolio](https://pontushenriksson.com)
   - [About Pontus](/pontus.md)
+  - [Personal portfolio](https://pontushenriksson.com)
+  - [Github](https://github.com/pontushenriksson)
+  - [LinkedIn](https://www.linkedin.com/in/pontushenriksson/)
 - [Neo Mannskär](/neo.md)
-  - [Personal portfolio](https://neo.mannskar.com)
   - [About Neo](/neo.md)
+  - [Personal portfolio](https://neo.mannskar.com)
+  - [Github](https://github.com/Nenne375)
+  - [LinkedIn](https://www.linkedin.com/in/neo-mannsk%C3%A4r-81bb2a276/)
 
 Contributors:
 
