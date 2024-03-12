@@ -6,12 +6,14 @@
 2. [Chisel - _documentation implementation_](/chisel.md)
 3. [Crystal - _book tracker_](/crystal.md)
 4. [Dropletstore - _e-commerce store_](/dropletstore.md)
-5. [LLS (Lotus Language Support) - _IDE extensions for highlighting and snippets_](/lls.md)
-6. [Loom - _web builder_](/loom.md)
-7. [Lotus - _programming language_](/lotus.md)
-8. [LotusLint - _linter for lotus_](/lotuslint.md)
-9. [Orchid - _game engine_](/orchid.md)
-10. [Todoi - _terminal-based ToDo application_](/todoi.md)
+5. [Lavender - _IDE_](/lavender.md)
+6. [LLS (Lotus Language Support) - _IDE extensions for highlighting and snippets_](/lls.md)
+7. [Loom - _web builder_](/loom.md)
+8. [Lotus - _programming language_](/lotus.md)
+9. [LotusLint - _linter for lotus_](/lotuslint.md)
+10. [Orchid - _game engine_](/orchid.md)
+11. [Todoi - _terminal-based ToDo application_](/todoi.md)
+12. [Totem Studios - _organisation_](/totemstudios.md)
 
 Thanks for visiting the docs <3
 
