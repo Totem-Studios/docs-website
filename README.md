@@ -3,10 +3,10 @@
 ### Categories
 
 1. [Chili - _package manager_](/chili.md)
-2. [Chisel - _INSERT TITLE_](/chisel.md)
+2. [Chisel - _documentation implementation_](/chisel.md)
 3. [Crystal - _book tracker_](/crystal.md)
 4. [Dropletstore - _e-commerce store_](/dropletstore.md)
-5. [LLS (Lotus Language Support) - _snippets and dependencies?????_](/lls.md)
+5. [LLS (Lotus Language Support) - _IDE extensions for highlighting and snippets_](/lls.md)
 6. [Loom - _web builder_](/loom.md)
 7. [Lotus - _programming language_](/lotus.md)
 8. [LotusLint - _linter for lotus_](/lotuslint.md)
