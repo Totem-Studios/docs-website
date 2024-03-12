@@ -28,7 +28,7 @@ Founders:
   - [About Neo](/neo.md)
   - [Personal portfolio](https://neo.mannskar.com)
   - [Github](https://github.com/Nenne375)
-  - [LinkedIn](https://www.linkedin.com/in/neo-mannsk%C3%A4r-81bb2a276/)
+  - [LinkedIn](https://www.linkedin.com/in/neo-mannskar/)
 
 Contributors:
 
