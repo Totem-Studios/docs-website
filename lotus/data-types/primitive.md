@@ -26,7 +26,7 @@
 
 ### These groups all have different sizes in memory and everyone except the 'bool' and 'c\*' data types have a size attached to them.
 
-## i
+## integers
 
 Lets take closer look at the different sizes for 'i', integer numbers.
 
@@ -48,7 +48,7 @@ i128
 
 These data types act similiar to the `long` and `long long` found in C and C++ however are, just like `i32`, independent of the platform. `i64` and `i128` have the sizes of 8 bytes and 16 bytes respectively.
 
-## f
+## floats
 
 Lets take closer look at the different sizes for 'f', floating point numbers.
 
@@ -65,3 +65,9 @@ f64
 ```rust
 f128
 ```
+
+## characters
+
+Characters in Lotus do not have sizes as in a range, rather there different encodings like UTF-8, Unicode etc.
+
+For regular characters that have a place in the ASCII charset, Lotus uses c_ascii
