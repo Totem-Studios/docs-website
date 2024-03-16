@@ -56,4 +56,12 @@ Lets take closer look at the different sizes for 'f', floating point numbers.
 f32
 ```
 
-Just like `i32`, `f32` has a size of 4 bytes but stores floating point numbers, meaning decimals. And just like `i64` and `i128` there is a `f64` and a `f128` with the same respective sizes. Floating point numbers in Lotus have, just like any other programming language, a trade-off when it comes to accurrecy and range.
+Just like `i32`, `f32` has a size of 4 bytes but stores floating point numbers, meaning decimal numbers. And just like `i64` and `i128` there is a `f64` and a `f128` with the same respective sizes. Floating point numbers in Lotus have, just like any other programming language, a trade-off when it comes to accurracy and range.
+
+```rust
+f64
+```
+
+```rust
+f128
+```
