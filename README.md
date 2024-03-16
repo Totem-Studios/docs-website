@@ -1,4 +1,8 @@
-# Welcome to the totem studios docs!
+# Welcome to the Totem Studios docs!
+
+Thanks for visiting the docs! ❤️
+
+This is the official Totem Studios documentation page dedicated towards documenting organization specific elements.
 
 ### Categories
 
@@ -15,21 +19,27 @@
 11. [Todoi - _terminal-based ToDo application_](/todoi.md)
 12. [Totem Studios - _organisation_](/totemstudios.md)
 
-Thanks for visiting the docs <3
+### Founders:
 
-Founders:
-
-- [Pontus Henriksson](/pontus.md)
+- Pontus Henriksson
   - [About Pontus](/pontus.md)
   - [Personal portfolio](https://pontushenriksson.com)
   - [Github](https://github.com/pontushenriksson)
   - [LinkedIn](https://www.linkedin.com/in/pontushenriksson/)
-- [Neo Mannskär](/neo.md)
+- Neo Mannskär
   - [About Neo](/neo.md)
   - [Personal portfolio](https://neo.mannskar.com)
   - [Github](https://github.com/Nenne375)
   - [LinkedIn](https://www.linkedin.com/in/neo-mannskar/)
 
-Contributors:
+### Distinct Contributors:
+
+Special thanks to:
+
+- Lucas Norman
+  - [About Lucas](/lucas.md)
+  - [Personal portfolio]()
+  - [Github](https://github.com/lucasnorman07)
+  - [LinkedIn]()
 
 Feel free to contribute with anything and you'll be added in the [contributors list](/contributors.md)

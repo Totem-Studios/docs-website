@@ -1,0 +1,80 @@
+:root {
+  /* Colors */
+
+  --neon-blue-clr: rgb(51, 105, 255);
+  --mustard-clr: rgb(255, 218, 71);
+  --magenta-haze-clr: rgb(174, 59, 118);
+  --aquamarine-clr: rgb(10, 235, 175);
+  --coral-clr: rgb(255, 119, 70);
+
+  --black-clr: rgb(0, 0, 0);
+  --rich-black-clr: rgb(14, 18, 27);
+  --raisin-black-clr: rgb(23, 27, 38);
+  --charcoal-clr: rgb(61, 68, 81);
+  --white-clr: rgb(255, 255, 255);
+
+  /* Transitions */
+
+  --rapid-transition: 0.15;
+  --fast-transition: 0.3;
+  --slow-transition: 1;
+  --snail-transition: 2;
+}
+
+/* --[ Global Styles ]-- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--charcoal-clr);
+}
+
+body {
+  background-color: var(--rich-black-clr);
+}
+
+pre {
+  background-color: var(--charcoal-clr);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--aquamarine-clr);
+}
+
+a {
+  color: var(--neon-blue-clr);
+}
+
+a:hover {
+  color: var(--magenta-haze-clr);
+  transition: var(--fast-transition);
+}
+
+footer {
+  background-color: var(--raisin-black-clr);
+  color: var(--charcoal-clr);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* --[ Specific Styles ]-- */
+
+header.page-header {
+  background-color: var(--neon-blue-clr);
+}
+
+div.header-repository-stats,
+div.header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
