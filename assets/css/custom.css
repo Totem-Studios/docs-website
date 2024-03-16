@@ -28,6 +28,13 @@
 
 /* --[ Global Styles ]-- */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--charcoal-clr);
+}
+
 body {
   background-color: var(--rich-black-clr);
 }
@@ -51,8 +58,8 @@ a:hover {
 }
 
 footer {
-  background-color: var(--neon-blue-clr);
-  color: var(--white-clr);
+  background-color: var(--raisin-black-clr);
+  color: var(--charcoal-clr);
   width: 100%;
   display: flex;
   flex-direction: column;

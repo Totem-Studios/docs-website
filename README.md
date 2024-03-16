@@ -15,9 +15,9 @@
 11. [Todoi - _terminal-based ToDo application_](/todoi.md)
 12. [Totem Studios - _organisation_](/totemstudios.md)
 
-Thanks for visiting the docs <3
+Thanks for visiting the docs ❤️
 
-Founders:
+### Founders:
 
 - Pontus Henriksson
   - [About Pontus](/pontus.md)
