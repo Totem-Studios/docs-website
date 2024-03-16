@@ -10,14 +10,14 @@ Welcome to the official documentation for Lotus, an innovative programming langu
 
 Lotus is easy to learn and has a gentle learning curve. This section will help you set up your development environment and take your first steps in Lotus programming.
 
-- [Installation Guide](/installation.md): Learn how to install Lotus on your system.
-- [Quick Start](/quick-start.md): A quick introduction to get you coding in Lotus right away.
+- [Installation Guide](/lotus/installation.md): Learn how to install Lotus on your system.
+- [Quick Start](/lotus/quick-start.md): A quick introduction to get you coding in Lotus right away.
 
 ## Language Reference
 
 The language reference covers the syntax, keywords, and other elements of the language in detail.
 
-- [Syntax Overview](/syntax): Understand the basic syntax of Lotus to start writing your programs.
+- [Syntax Overview](/lotus/syntax-overview.md): Understand the basic syntax of Lotus to start writing your programs.
 - [Data Types](/data-types): Explore the various data types supported by Lotus.
 - [Control Structures](/control-structures): Learn about the control flow statements in Lotus, including loops and conditionals.
 - [Functions](/functions): Dive into defining and using functions in Lotus.
