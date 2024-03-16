@@ -21,10 +21,42 @@
   /* ... */
 }
 
+/* --[ Global Styles ]-- */
+
 body {
   background-color: var(--rich-black-clr);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--coral-clr);
+}
+
+a {
+  color: var(--neon-blue-clr);
+}
+
+a:hover {
+  color: var(--magenta-haze-clr);
+}
+
+footer {
+  background-color: var(--neon-blue-clr);
+  color: var(--white-clr);
+}
+
+/* --[ Specific Styles ]-- */
+
 header.page-header {
   background-color: var(--neon-blue-clr);
+}
+
+div.header-repository-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
