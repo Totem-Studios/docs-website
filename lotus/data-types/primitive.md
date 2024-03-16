@@ -2,11 +2,11 @@
 
 #### _The Lotus Programming Language_
 
-### Lotus has <u>5</u> primitive data type groups for storing and manipulating data. These groups all have different sizes in memory and everyone except the 'bool' and 'char\*' data types have a size or encoding attached to them.
+### Lotus has <u>5</u> primitive data type groups for storing and manipulating data. These groups all have different sizes in memory and everyone except the `bool` and `char\*` data types have a size or encoding attached to them.
 
 ## Integers
 
-Lets take closer look at the different data types for integer numbers.
+Lets take a closer look at the different data types for integer numbers.
 
 ```rust
 i32
@@ -28,17 +28,17 @@ i64
 i128
 ```
 
-These data types act similiar to the `short`, `long` and `long long` found in C and C++ however are, just like `i32`, independent of the platform. `i16`, `i64` and `i128` have the sizes of 2 bytes, 8 bytes and 16 bytes respectively.
+These data types act similarly to the `short`, `long` and `long long` found in C and C++, but, just like `i32`, they are independent of the platform. `i16`, `i64` and `i128` have the sizes of 2 bytes, 8 bytes and 16 bytes respectively.
 
 ## Floats
 
-Lets take closer look at the different data types for floating point numbers (decimal numbers).
+Lets take a closer look at the different data types for floating point numbers (decimal numbers).
 
 ```rust
 f32
 ```
 
-Just like `i32`, `f32` has a size of 4 bytes but stores floating point numbers, meaning decimal numbers. And just like the `i16`, `i64` and `i128` data types,there is a `f16`, `f64` and `f128` with the same respective sizes.
+Just like `i32`, `f32` has a size of 4 bytes but stores floating point numbers, meaning decimal numbers. And just like the `i16`, `i64` and `i128` data types, there is a `f16`, `f64` and `f128` with the same respective sizes.
 
 ```
 f16
@@ -54,7 +54,7 @@ f128
 
 ## Characters
 
-Characters in Lotus do not have sizes as in a range, rather there are different encodings such as UTF-8, Unicode.
+Characters in Lotus do not have sizes as in a range, rather there are different encodings such as UTF-8 and Unicode.
 
 For regular characters that have a place in the ASCII charset, Lotus uses `char` or `char:ascii`.
 
