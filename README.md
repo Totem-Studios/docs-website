@@ -1,5 +1,9 @@
 # Welcome to the Totem Studios docs!
 
+Thanks for visiting the docs! ❤️
+
+This is the official Totem Studios documentation page dedicated towards documenting organization specific elements.
+
 ### Categories
 
 1. [Chili - _package manager_](/chili.md)
@@ -15,8 +19,6 @@
 11. [Todoi - _terminal-based ToDo application_](/todoi.md)
 12. [Totem Studios - _organisation_](/totemstudios.md)
 
-Thanks for visiting the docs ❤️
-
 ### Founders:
 
 - Pontus Henriksson
@@ -30,6 +32,14 @@ Thanks for visiting the docs ❤️
   - [Github](https://github.com/Nenne375)
   - [LinkedIn](https://www.linkedin.com/in/neo-mannskar/)
 
-Contributors:
+### Distinct Contributors:
+
+Special thanks to:
+
+- Lucas Norman
+  - [About Lucas](/lucas.md)
+  - [Personal portfolio]()
+  - [Github](https://github.com/lucasnorman07)
+  - [LinkedIn]()
 
 Feel free to contribute with anything and you'll be added in the [contributors list](/contributors.md)
