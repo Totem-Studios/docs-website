@@ -52,7 +52,7 @@ f64
 f128
 ```
 
-## characters
+## Characters
 
 Characters in Lotus do not have sizes as in a range, rather there are different encodings like UTF-8, Unicode etc.
 

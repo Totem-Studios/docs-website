@@ -47,6 +47,10 @@ a:hover {
 footer {
   background-color: var(--neon-blue-clr);
   color: var(--white-clr);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /* --[ Specific Styles ]-- */
