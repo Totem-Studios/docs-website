@@ -1,4 +1,4 @@
-# Welcome to the totem studios docs!
+# Welcome to the Totem Studios docs!
 
 ### Categories
 
