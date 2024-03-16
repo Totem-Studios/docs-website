@@ -34,7 +34,7 @@ Lets take closer look at the different sizes for 'i', integer numbers.
 i32
 ```
 
-The modest `i32` clearly conveys a data type which store integer values and has a size of 32 bits, or 4 bytes. In languages like C and C++ the size of an 'int may vary depending on the system implementation. In Lotus an `i32` has the same memory footprint independent of the platform.
+The modest `i32` clearly conveys a data type which stores integer values and has a size of 32 bits, or 4 bytes. In languages like C and C++ the size of an 'int may vary depending on the system implementation. In Lotus an `i32` has the same memory footprint independent of the platform.
 
 The next two sizes are the `i64` and `i128`.
 
