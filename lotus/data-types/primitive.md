@@ -54,7 +54,7 @@ f128
 
 ## Characters
 
-Characters in Lotus do not have sizes as in a range, rather there are different encodings like UTF-8, Unicode etc.
+Characters in Lotus do not have sizes as in a range, rather there are different encodings such as UTF-8, Unicode.
 
 For regular characters that have a place in the ASCII charset, Lotus uses `char` or `char:ascii`.
 
@@ -67,13 +67,7 @@ Through this naming it is clear to both the programmer and the compiler what cha
 You specify the encoding accordingly:
 
 ```
-char:utf8
+char:<encoding type>
 ```
-
-```
-char:unicode
-```
-
-etc.
 
 Read more about all the available character encodings [here](../standards/character-encodings.md).

@@ -18,7 +18,12 @@
   --charcoal-clr: rgb(61, 68, 81);
   --white-clr: rgb(255, 255, 255);
 
-  /* ... */
+  /* Transitions */
+
+  --rapid-transition: 0.15;
+  --fast-transition: 0.3;
+  --slow-transition: 1;
+  --snail-transition: 2;
 }
 
 /* --[ Global Styles ]-- */
@@ -42,14 +47,16 @@ a {
 
 a:hover {
   color: var(--magenta-haze-clr);
+  transition: var(--fast-transition);
 }
 
 footer {
   background-color: var(--neon-blue-clr);
   color: var(--white-clr);
-  width: 100vw;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
