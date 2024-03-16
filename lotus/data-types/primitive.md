@@ -12,7 +12,7 @@
 
 - Floating point numbers
 
-# c
+# char
 
 - Characters
 
@@ -62,7 +62,7 @@ Just like `i32`, `f32` has a size of 4 bytes but stores floating point numbers, 
 f64
 ```
 
-```rust
+```
 f128
 ```
 
@@ -70,4 +70,18 @@ f128
 
 Characters in Lotus do not have sizes as in a range, rather there different encodings like UTF-8, Unicode etc.
 
-For regular characters that have a place in the ASCII charset, Lotus uses c_ascii
+For regular characters that have a place in the ASCII charset, Lotus uses `c_ascii`.
+
+```
+char::ascii
+```
+
+Through this naming it is clear to both the programmer and the compiler what character encodui
+
+```
+char::utf8
+```
+
+```
+char::unicode
+```
