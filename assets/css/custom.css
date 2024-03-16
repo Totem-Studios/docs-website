@@ -39,6 +39,10 @@ body {
   background-color: var(--rich-black-clr);
 }
 
+pre {
+  background-color: var(--charcoal-clr);
+}
+
 h1,
 h2,
 h3,

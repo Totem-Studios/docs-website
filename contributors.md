@@ -5,4 +5,4 @@ More information will be added here so please stay tuned for that. These are new
 - Lucas Norman
   - Sweden
   - [Github](https://github.com/lucasnorman07)
-  - `Lotus`
+  - `Lotus`, `Docs`
