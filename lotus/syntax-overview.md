@@ -1,19 +1,69 @@
 # Lotus syntax (in the works)
 
+## Variables
+
+Variables are immutable by default
+
+```
+x: i32 = 2;
+y: bool = true;
+y: str = "hello, world";
+```
+
+Use the mut keyword to make them mutable
+
+```
+mut x: i32 = 2;
+mut y: bool = true;
+mut z: str = "hello, world";
+x = 3;
+y = false;
+z = "new str";
+```
+
+Use auto or the walrus operator to detect the type
+
+```
+x: auto = 23;
+x := 23;
+```
+
+`Or alternatively using the type before the name`
+
+```
+i32 x = 2;
+bool y = true;
+str z = "hello, world";
+```
+
+```
+mut i32 x = 2;
+mut bool y = true;
+mut str z = "hello, world";
+x = 3;
+y = false;
+z = "new str";
+```
+
+```
+auto x = 23;
+x := 23;
+```
+
 ## Loops
 
 ### For loops
 
 ```
-for i32 i = 0; i < 10; i++ {
-    print("Number: {i}");
+for i: i32 = 0; i < 10; i++ {
+    print(f"Number: {i}");
 }
 
 for i in 0..10 {
-    print("Number: {i}");
+    print(f"Number: {i}");
 }
 for e in list {
-    print("Element: {e}");
+    print(f"Element: {e}");
 }
 ```
 
@@ -40,6 +90,14 @@ if condition && another_condition {
 
 if condition || another_condition {
     print("One is true");
+}
+```
+
+`Or alternatively using "and", "or" and "not"`
+
+```
+if not condition and (another_condition or a_third_condition) {
+    print("Result is true!");
 }
 ```
 
@@ -71,87 +129,13 @@ if condition {
 }
 ```
 
-## Variables
-
-Variables are immutable by default
-
-```
-i32 x = 2;
-bool y = true;
-str z = "hello, world";
-```
-
-Use the mut keyword to make them mutable
-
-```
-mut i32 x = 2;
-mut bool y = true;
-mut str z = "hello, world";
-x = 3;
-y = false;
-z = "new str";
-```
-
-Using auto to detect the type
-
-```
-mut auto x = 23;
-```
-
-`Or alternatively using a colon with the type after the variable name`
-
-```
-x: i32 = 2;
-y: bool = true;
-y: str = "hello, world";
-```
-
-Use the mut keyword to make them mutable
-
-```
-mut x: i32 = 2;
-mut y: bool = true;
-mut z: str = "hello, world";
-x = 3;
-y = false;
-z = "new str";
-```
-
-Using auto to detect the type
-
-```
-mut x: auto = 23;
-```
-
 ## Functions
 
-Function without return type
-
-```
-fn printInLoop(str text, i32 n) {
-    for i in 0..n {
-        print(text);
-    }
-}
-```
-
-Function with return type
-
-```
-fn factorial(i32 n) -> i32 {
-    if n == 1 {
-        ret n;
-    }
-    ret factorial(n - 1);
-}
-```
-
-`Or alternatively using a colon with the type after the paramater name`
 
 Function without return type
 
 ```
-fn printInLoop(text: str, n: i32) {
+fn print_in_loop(text: str, n: i32) {
     for i in 0..n {
         print(text);
     }
@@ -167,4 +151,41 @@ fn factorial(n: i32) -> i32 {
     }
     ret factorial(n - 1);
 }
+```
+
+`Or alternatively using the type before parameter name`
+
+```
+fn print_in_loop(str text, i32 n) {
+    for i in 0..n {
+        print(text);
+    }
+}
+```
+
+```
+fn factorial(i32 n) -> i32 {
+    if n == 1 {
+        ret n;
+    }
+    ret factorial(n - 1);
+}
+```
+
+## Type casting
+
+Cast a variable with: \<variable\> ~ \<type\>
+
+```
+x: f64 = 3.4;
+y: i32 = x ~ i32;
+```
+
+## F-strings
+
+Use an f-string to insert variables inside of a string (useful when printing)
+
+```
+age: i32 = 10;
+print(f"Your age is: {age}");
 ```
