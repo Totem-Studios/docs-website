@@ -35,8 +35,8 @@ For those looking to dive deeper, these sections cover advanced topics and best 
 
 Join the Lotus community to find support, share your projects, and collaborate with others.
 
-- [Forum](https://yourforum.link): Connect with other Lotus developers and get help.
-- [GitHub](https://yourgithub.link): Contribute to the Lotus project or report issues.
+- [Forum](https://signal-group.link): Connect with other Lotus developers and get help.
+- [GitHub](https://github.com/Totem-Studios/lotus): Contribute to the Lotus project or report issues.
 - [FAQ](/faq): Find answers to commonly asked questions.
 
 ## Contributing
